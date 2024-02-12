@@ -1,0 +1,76 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(216, 213, 213);
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #8f7a7a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(95, 68, 68, 0.1);
+    margin-top: 200px;
+}
+
+
+.county-form {
+    margin-bottom: 20px;
+}
+
+#cityList, #countyImageContainer {
+    margin-top: 20px;
+    display: none;
+}
+
+.city-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.city {
+    width: calc(20% - 20px);
+    
+    margin: 5px;
+    
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#countyImageContainer img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 50px auto;
+}
+
+
+#cityList {
+    background-color: #eaeaea; 
+    padding: 10px;
+    text-align: center;
+}
+
+.delete-container {
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+.deleteBtn {
+    line-height: 26px; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+#searchBtn{
+    text-align: center;
+}
